@@ -3,7 +3,7 @@ jobs:
   build:
     working_directory: /coolapp
     docker:
-      - image: docker:18.06.2-ce-git
+      - image: docker:17.05.0-ce-git
     steps:
       - checkout
       - setup_remote_docker
